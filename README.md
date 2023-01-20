@@ -31,14 +31,26 @@ The number 16 should be replaced with "Boop!".
 The number 42 should be replaced with "Won't you be my neighbor?"
 The number 61 should be replaced with "Boop!".
 
+new test ideas:
+function1
+function recognizes numbers/puts them in order
+put numbers into an array starting at 0
+if numbers are input to the array it should return them in order
+
+function2
+it should replace number 4 in the array with a string
+it should replace number 16 in the array with a string
+it should replace number 42 in the array with a string
+it should replace number 61 in the array with a string
+must push into the array
+
 Describe: fredBot()
 
 *  Test One
-Test: "It should return 1 if a input has just one number."
+Test: "It should return an array of numbers from 0 to the user's inputted number."
 Code:
-const digit = 4;
-fredBot(number);
-Expected Output: 1
+fredBot(5);
+Expected Output: [0, 1 ,2 ,3 ,4 ,5]
 
 *  Test Two
 Test: "It should return 2 if a input has two numbers."

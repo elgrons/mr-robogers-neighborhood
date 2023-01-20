@@ -1,11 +1,9 @@
 // BUSINESS LOGIC
 
-function fredBot(digit) {
+function fredBot(nb) {
+  const fredBotArray = [] {
   let botCount = 0;
-  const digitArray = number.split(" ");
-  digitArray.forEach(function(element) {
-    botCount++;
-  });
+  }
   return botCount;
 }
 
