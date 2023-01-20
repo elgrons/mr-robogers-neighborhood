@@ -31,9 +31,9 @@ The number 16 should be replaced with "Boop!".
 The number 42 should be replaced with "Won't you be my neighbor?"
 The number 61 should be replaced with "Boop!".
 
-*  Test One
 Describe: fredBot()
 
+*  Test One
 Test: "It should return 1 if a passage has just one number."
 Code:
 const number = 4;
@@ -41,6 +41,11 @@ fredBot(number);
 Expected Output: 1
 
 *  Test Two
+Test: "It should return 0 for an empty string."
+Code:
+const number = "";
+fredBot("");
+Expected Output: 0
 
 *  Test Three
 
