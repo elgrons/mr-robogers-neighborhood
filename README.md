@@ -24,6 +24,13 @@ A web application made for my independent project at Epicodus Coding School duri
 
 ## TDD
 
+*In my finished program:
+
+The number 4 should be replaced with "Won't you be my neighbor?"
+The number 16 should be replaced with "Boop!".
+The number 42 should be replaced with "Won't you be my neighbor?"
+The number 61 should be replaced with "Boop!".
+
 *  Test One
 Describe: fredBot()
 
