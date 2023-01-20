@@ -25,6 +25,13 @@ A web application made for my independent project at Epicodus Coding School duri
 ## TDD
 
 *  Test One
+Describe: fredBot()
+
+Test: "It should return 1 if a passage has just one word."
+Code:
+const text = "hello";
+fredBot(text);
+Expected Output: 1
 
 *  Test Two
 
