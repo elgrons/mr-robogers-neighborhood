@@ -1,21 +1,14 @@
 // BUSINESS LOGIC
 
-function fredBot(number) {
-  if (number.trim().length === 0) {
-    return 0;
-  }
+function fredBot(digit) {
   let botCount = 0;
-  const 
-  const numberArray = number.split("");
-  numberArray.forEach(function(element) {
-    if (!String(element)) {
-      botCount++;
-    }
+  const digitArray = number.split(" ");
+  digitArray.forEach(function(element) {
+    botCount++;
   });
   return botCount;
 }
 
-a
 
 // USER INTERFACE LOGIC
 

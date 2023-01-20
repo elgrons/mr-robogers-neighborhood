@@ -36,32 +36,32 @@ Describe: fredBot()
 *  Test One
 Test: "It should return 1 if a input has just one number."
 Code:
-const number = 4;
+const digit = 4;
 fredBot(number);
 Expected Output: 1
 
 *  Test Two
 Test: "It should return 2 if a input has two numbers."
 Code:
-const number = 44;
+const digit = 44;
 fredBot(number);
 Expected Output: 2
 
 *  Test Three
-<!-- Function is the same as Test 2, but I've updated the variables and parameters. -->
-Test: "It should return 0 for an empty string."
-Code: fredBot("");
-Expected Output: 0
+Test: "It should recognize characters within a string."
+Code:
+const digit = "44";
+fredBot(digit);
+Expected Output: 1
 
 *  Test Four
-Test: "It should return 0 for a string that is only spaces."
-Code: fredBot("            ");
-Expected Output: 0
+Test: "It should recognize numbers within a string."
+Code:
+const digit = "44 ";
+fredBot(digit);
+Expected Output: N/A
 
 *  Test Five
-Test: "It should recognize numbers within a string."
-Code: fredBot("oh hey 320 1987");
-Expected Output: 2
 
 *  Test Six
 
