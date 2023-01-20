@@ -34,20 +34,21 @@ The number 61 should be replaced with "Boop!".
 Describe: fredBot()
 
 *  Test One
-Test: "It should return 1 if a passage has just one number."
+Test: "It should return 1 if a input has just one number."
 Code:
 const number = 4;
 fredBot(number);
 Expected Output: 1
 
 *  Test Two
-Test: "It should return 0 for an empty string."
+Test: "It should return 2 if a input has two numbers."
 Code:
-const number = "";
-fredBot("");
-Expected Output: 0
+const number = 44;
+fredBot(number);
+Expected Output: 2
 
 *  Test Three
+
 
 *  Test Four
 

@@ -1,8 +1,17 @@
 // BUSINESS LOGIC
 
 function fredBot(number) {
-  return 1;
+  if (number.length === 0) {
+    return 0;
+  }
+  let botCount = 0;
+  const numberArray = number.toString().split("");
+  numberArray.forEach(function(number) {
+    botCount++;
+  });
+  return botCount;
 }
+
 
 
 
