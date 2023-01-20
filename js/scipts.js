@@ -5,7 +5,8 @@ function fredBot(number) {
     return 0;
   }
   let botCount = 0;
-  const numberArray = number.toString().split("");
+  const 
+  const numberArray = number.split("");
   numberArray.forEach(function(element) {
     if (!String(element)) {
       botCount++;

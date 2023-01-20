@@ -59,7 +59,7 @@ Code: fredBot("            ");
 Expected Output: 0
 
 *  Test Five
-Test: "It should not say that words are numbers."
+Test: "It should recognize numbers within a string."
 Code: fredBot("oh hey 320 1987");
 Expected Output: 2
 
