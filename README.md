@@ -48,16 +48,20 @@ fredBot(number);
 Expected Output: 2
 
 *  Test Three
+<!-- Function is the same as Test 2, but I've updated the variables and parameters. -->
 Test: "It should return 0 for an empty string."
 Code: fredBot("");
 Expected Output: 0
 
 *  Test Four
-Test: ""
-Code: fredBot();
-Expected Output: 
+Test: "It should return 0 for a string that is only spaces."
+Code: fredBot("            ");
+Expected Output: 0
 
 *  Test Five
+Test: "It should not say that words are numbers."
+Code: fredBot("oh hey 320 1987");
+Expected Output: 2
 
 *  Test Six
 
