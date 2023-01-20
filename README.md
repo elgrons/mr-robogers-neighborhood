@@ -24,7 +24,7 @@ A web application made for my independent project at Epicodus Coding School duri
 
 ## TDD
 
-*In my finished program:
+* In my finished program:
 
 The number 4 should be replaced with "Won't you be my neighbor?"
 The number 16 should be replaced with "Boop!".
@@ -34,10 +34,10 @@ The number 61 should be replaced with "Boop!".
 *  Test One
 Describe: fredBot()
 
-Test: "It should return 1 if a passage has just one word."
+Test: "It should return 1 if a passage has just one number."
 Code:
-const text = "hello";
-fredBot(text);
+const number = 4;
+fredBot(number);
 Expected Output: 1
 
 *  Test Two

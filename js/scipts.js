@@ -1,8 +1,9 @@
 // BUSINESS LOGIC
 
-function fredBot(word) {
+function fredBot(number) {
   return 1;
 }
+
 
 
 // USER INTERFACE LOGIC
