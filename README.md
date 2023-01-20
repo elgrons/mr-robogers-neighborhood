@@ -48,9 +48,14 @@ fredBot(number);
 Expected Output: 2
 
 *  Test Three
-
+Test: "It should return 0 for an empty string."
+Code: fredBot("");
+Expected Output: 0
 
 *  Test Four
+Test: ""
+Code: fredBot();
+Expected Output: 
 
 *  Test Five
 
