@@ -1,21 +1,28 @@
 // BUSINESS LOGIC
 
-function fredBot(nb) {
-  const fredBotArray = [] {
-  let botCount = 0;
-  }
-  return botCount;
-}
+// Test one:
+// function fredBotNeighb(number) {
+//   return 1;
+// }
 
+// Test Two:
+function fredBotNeighb(number) {
+  let fredBot = 0;
+  const fredBotArray = number.split(" ");
+  fredBotArray.forEach(function(word) {
+    fredBot++;
+  });
+  return fredBot;
+}
 
 // USER INTERFACE LOGIC
 
 // function handleFormSubmission() {
 //   event.preventDefault();
-//   const passage = document.getElementById("text-passage").value;
+//   const input = document.getElementById("text-bot").value;
 //   const word = document.getElementById("word").value;
-//   const wordCount = wordCounter(passage);
-//   const occurrencesOfWord = numberOfOccurrencesInText(word, passage);
+//   const wordCount = wordCounter(input);
+//   const occurrencesOfWord = numberOfOccurrencesInText(word, input);
 //   document.getElementById("total-count").innerText = wordCount;
 //   document.getElementById("selected-count").innerText = occurrencesOfWord;
 // }
