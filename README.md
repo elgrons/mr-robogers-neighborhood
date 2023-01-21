@@ -44,14 +44,21 @@ it should replace number 42 in the array with a string
 it should replace number 61 in the array with a string
 must push into the array
 
-Describe: fredBotNeighb()
+Describe: fredBotNeighbor()
 
-*  Test One
-Test: "It should return 1 if the input has just one number."
+* Test One
+Test: "It should return an array of numbers from 0 to 5."
+Code: 
+const fredBotNeighbor = [1, 2, 3, 4, 5];
+fredBotNeighbor(5);
+Expected Output: [0, 1, 2, 3, 4, 5]
+
+*  Test Two
+Test: "It should return an array of numbers from 0 to the user's inputted number."
 Code:
-const number = 4;
-fredBotNeighb(number);
-Expected Output: 1
+n = 10;
+fredBotNeighb(n);
+Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 *  Test Two
 Test: "It should return 2 if the input has two numbers."
