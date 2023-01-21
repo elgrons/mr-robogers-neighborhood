@@ -32,18 +32,7 @@ For numbers that contain a 3, all digits are replaced with "Won't you be my neig
 
 The first substitution should apply unless the second does, and the same with the second and third. In other words, the substitution for the number 1 should apply unless there's a 2 present in the number. Then, the substitution for the number 2 should apply unless there's a 3 present in the number.
 
-<!-- function1
-function recognizes numbers/puts them in order
-put numbers into an array starting at 0
-if numbers are input to the array it should return them in order
-If I put them in order of 1 to 100 do I need a piece of code that gives an error after 100, or do my index parameters do that for me? -->
-
-<!-- function2
-it should replace number 4 in the array with a string
-it should replace number 16 in the array with a string
-it should replace number 42 in the array with a string
-it should replace number 61 in the array with a string
-must push into the array -->
+<!-- Do I need two functions? -->
 
 <!-- ADAPTED FROM THE FIRST PROMPT OF THE FRIDAY PROJECT USING A FOR LOOOP -->
 
@@ -56,42 +45,38 @@ must push into the array -->
 fredBotInput = ...
 const pattern = [] ..?
 
-const fredBot = ( ,pattern) {
-  for (let i=0; i <= fredBotInput.length>; i+= 1) {
-    if (fredBot[i]) === pattern) {
-      botOutput = true;
-      break;
-    };
+Spitballing what it might end up looking like:
+
+<!-- function fredBot() {
+  const fredBotArray[] = fredBot() {
+    for (let index = 1; index <= input.length; index += 1)
+  }
+  function "NEXT"() {
+    if () {
+      return etc.};
+      else {
+        const value = etc[i];
+        fredBot++;
+        return (value, done: false};
+      }
+    }
+    console.log(fredBot[index]);
+    return fredBot;
+  };
+} 
+
+-->
+
     elseFor numbers that contain a 1, all digits are replaced with "Beep!"
 
     else For numbers that contain a 2, all digits are replaced with "Boop!"
 
     else For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
 
-    console.log("Looped!");
-  }
-    <!-- fredBot++ -->
+  return fredBot;
+}
 
-    return FredBot
-};
 
-<!-- function fredBotArray() {
-  fredBotReturn = [];
-  for (let index = 0; index <= input.length; index += 1) {
-      fredBotReturn(input);
-      }
-  <!-- fredBot++; -->
-  <!-- console.log(index);
-  return fredBotReturn;
-  } --> -->
-
-  function fredBotArray() {
-  for (let index = 0; index <= input.length; index += 1) {
-      fredBotArray(input);
-      }
-  console.log(index);
-  return fredBotArray;
-  }
 
 Describe: fredBot()
 
@@ -99,34 +84,58 @@ Describe: fredBot()
 Test: "It should return an array of numbers from 0 to 5."
 Code: 
 const input = [1, 2, 3, 4, 5];
+fredBot(input);
 Expected Output: [0, 1, 2, 3, 4, 5]
 <!-- function fredBot() {
-  for (let index = 1; index <= 5; index += 1)
+  for (let index = 0; index <= 5; index += 1)
   console.log(index);
 } -->
 
-test passes
+<!-- Test Passes -->
 
 *  Test Two
 Test: "It should return an array of numbers from 0 to the user's inputted number."
+<!-- vs what it does "It retuns the number of the user's input number." -->
 Code:
-const input = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-fredBot(input)
-Expected Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+fredBot(input);
+Expected Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+<!-- Actual Current Output: 10, not displayed as an array -->
+
 <!-- function fredBot() {
-  for (let index = 1; index <= input.length; index += 1) {
-  console.log(index);
+  const fredBotArray = []
+  for (let i = 0; i < input.length; i +=1) {
+  console.log(fredBot[i]);
   };
-  return fredBot;
+  return fredBotArray;
 } -->
 
-false: it goes to 11
-
 *  Test Three
+Test: "It should update numbers that contain a 1 to have all digits replaced with "Beep!""
+Code:
+const input = [1, 2, 3]
+fredBot(input)
+Expected Output: ["Beep!, 2, 3]
+
+<!-- function fredBot() {
+  const fredBotArray = []
+  for (let i = 0; i < input.length; i +=1) {
+  console.log(fredBot[i]);
+  };
+  return fredBotArray;
+} -->
 
 *  Test Four
+Test: "It should update numbers that contain a 2 to have all digits are replaced with "Boop!!""
+Code:
+fredBot()
+Expected Output: 
 
 *  Test Five
+Test: "It should update numbers that contain a 3 so they are replaced with "Won't you be my neighbor?"
+Code:
+fredBot()
+Expected Output: 
 
 *  Test Six
 
