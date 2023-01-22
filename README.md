@@ -180,8 +180,8 @@ function fredBot(input) {
 
 ## Known Bugs
 
-*  My second test output is the correct number, but the output is not in an array in my console like I expected it to be.
-* 
+*  I need to adapt my main function into a String, at this point it's only pulling 1, 2, and 3 as stand alone numbers with the return robo-speech.
+* My javascript isn't pushing the output of my function to my HTML.
 
 * Please reach out to eliot.lauren@gmail.com with any questions or concerns.
 
