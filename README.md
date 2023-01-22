@@ -108,7 +108,15 @@ const input = [1, 2, 3]
 fredBot(input)
 Expected Output: ["Beep!, 2, 3]
 
-function fredBot(input) {
+
+
+<!-- 
+[PASSES BUT NEEDS TO BE REFACTORED SO THAT IT'S EVERY NUMBER WITH A ONE IN IT, AND NOT JUST NUMBER 1] -->
+
+
+
+
+<!-- function fredBot(input) {
   let fredBotArray = []
   for (let i = 0; i <= input; i +=1) {
     console.log("index" + i);
@@ -121,7 +129,7 @@ function fredBot(input) {
         fredBotArray.push(i);
     }
   };
-  return fredBotArray;
+  return fredBotArray; -->
 }
 
 *  Test Four
@@ -130,11 +138,50 @@ Code:
 fredBot()
 Expected Output: ["Beep!", "Boop!", 3]
 
+function fredBot(input) {
+  let fredBotArray = []
+  for (let i = 0; i <= input; i +=1) {
+    console.log("index" + i);
+    console.log("array" + fredBotArray[i]);
+    if (i === 1) {
+      fredBotArray.push("Beep!");
+      console.log("1===TRUE");
+    }
+     else if {
+        fredBotArray.push("Boop!");
+    }
+    else {
+        fredBotArray.push(i);
+    }
+  };
+  return fredBotArray;
+
 *  Test Five
 Test: "It should update numbers that contain a 3 so they are replaced with "Won't you be my neighbor?"
 Code:
 fredBot()
 Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?"]
+
+function fredBot(input) {
+  let fredBotArray = []
+  for (let i = 0; i <= input; i +=1) {
+    console.log("index" + i);
+    console.log("array" + fredBotArray[i]);
+    if (i === 1) {
+      fredBotArray.push("Beep!");
+      console.log("1===TRUE");
+    }
+     else if {
+        fredBotArray.push("Boop!");
+    }
+        else if {
+        fredBotArray.push("Won't you be my neighbor?");
+    }
+    else {
+        fredBotArray.push(i);
+    }
+  };
+  return fredBotArray;
 
 
 <!-- I want to end up with something like: -->
