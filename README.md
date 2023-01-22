@@ -29,46 +29,6 @@ For numbers that contain a 3, all digits are replaced with "Won't you be my neig
 * _format_
 
 ## TDD
-
-* The first substitution should apply unless the second does, and the same with the second and third. In other words, the substitution for the number 1 should apply unless there's a 2 present in the number. Then, the substitution for the number 2 should apply unless there's a 3 present in the number.
-
-<!-- Do I need two functions? -->
-
-<!-- ADAPTED FROM THE FIRST PROMPT OF THE FRIDAY PROJECT USING A FOR LOOOP -->
-
-<!-- WHERE AM I GETTING MY PARAMETERS AND ARGUMENTS FROM!?!?!? -->
-
-Spitballing what it might end up looking like:
-
-<!-- function fredBot() {
-  const fredBotArray[] = fredBot() {
-    for (let index = 1; index <= input.length; index += 1)
-  }
-  function "NEXT"() {
-    if () {
-      return etc.};
-      else {
-        const value = etc[i];
-        fredBot++;
-        return (value, done: false};
-      }
-    }
-    console.log(fredBot[index]);
-    return fredBot;
-  };
-} 
-
--->
-
-    elseFor numbers that contain a 1, all digits are replaced with "Beep!"
-
-    else For numbers that contain a 2, all digits are replaced with "Boop!"
-
-    else For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
-
-  return fredBot;
-}
-
 Describe: fredBot()
 
 * Test One
@@ -81,8 +41,6 @@ Expected Output: [0, 1, 2, 3, 4, 5]
   for (let index = 0; index <= 5; index += 1)
   console.log(index);
 } -->
-
-<!-- Test Passes -->
 
 *  Test Two
 Test: "It should return an array of numbers from 0 to the user's input number."
@@ -155,11 +113,11 @@ Code:
 fredBot()
 Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?"]
 
-function fredBot(input) {
+<!-- function fredBot(input) {
   let fredBotArray = []
   for (let i = 0; i <= input; i +=1) {
-    <!-- console.log("index" + i);
-    console.log("array" + fredBotArray[i]); -->
+    console.log("index" + i);
+    console.log("array" + fredBotArray[i]);
     let inString = fredBotArray.toString(element)
     if inString(element.includes("1")) {
       fredBotArray.push("Beep!");
@@ -176,7 +134,7 @@ function fredBot(input) {
     }
   };
   return fredBotArray;
-}
+} -->
 
 ## Known Bugs
 
