@@ -108,14 +108,6 @@ const input = [1, 2, 3]
 fredBot(input)
 Expected Output: ["Beep!, 2, 3]
 
-
-
-<!-- 
-[PASSES BUT NEEDS TO BE REFACTORED SO THAT IT'S EVERY NUMBER WITH A ONE IN IT, AND NOT JUST NUMBER 1] -->
-
-
-
-
 <!-- function fredBot(input) {
   let fredBotArray = []
   for (let i = 0; i <= input; i +=1) {
@@ -129,8 +121,8 @@ Expected Output: ["Beep!, 2, 3]
         fredBotArray.push(i);
     }
   };
-  return fredBotArray; -->
-}
+  return fredBotArray;
+} -->
 
 *  Test Four
 Test: "It should update numbers that contain a 2 to have all digits are replaced with "Boop!!""
@@ -138,7 +130,7 @@ Code:
 fredBot()
 Expected Output: ["Beep!", "Boop!", 3]
 
-function fredBot(input) {
+<!-- function fredBot(input) {
   let fredBotArray = []
   for (let i = 0; i <= input; i +=1) {
     console.log("index" + i);
@@ -147,14 +139,15 @@ function fredBot(input) {
       fredBotArray.push("Beep!");
       console.log("1===TRUE");
     }
-     else if {
+     else if (i === 2) {
         fredBotArray.push("Boop!");
     }
     else {
         fredBotArray.push(i);
     }
   };
-  return fredBotArray;
+  return fredBotArray
+  } -->
 
 *  Test Five
 Test: "It should update numbers that contain a 3 so they are replaced with "Won't you be my neighbor?"
@@ -165,16 +158,17 @@ Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?"]
 function fredBot(input) {
   let fredBotArray = []
   for (let i = 0; i <= input; i +=1) {
-    console.log("index" + i);
-    console.log("array" + fredBotArray[i]);
-    if (i === 1) {
+    <!-- console.log("index" + i);
+    console.log("array" + fredBotArray[i]); -->
+    let inString = fredBotArray.toString(element)
+    if inString(element.includes("1")) {
       fredBotArray.push("Beep!");
       console.log("1===TRUE");
     }
-     else if {
+     else if inString(element.includes("2")) {
         fredBotArray.push("Boop!");
     }
-        else if {
+        else if (i === 3) {
         fredBotArray.push("Won't you be my neighbor?");
     }
     else {
@@ -182,24 +176,7 @@ function fredBot(input) {
     }
   };
   return fredBotArray;
-
-
-<!-- I want to end up with something like: -->
-
-<!-- funtion xyz = empty starting point  
-  runs through the whole array  
-    goes through the array
-    pulls out numbers, 4, 16, 62, and 61
-    replaces those numbers with the silly phrases
-    .appends them back into the array
-
-    punches the array into the html
-
-    the html does it over and over again based on resubmmisions
-
-    is this two functions? is it three functions?
-    do I need a string or can it be done with just numbers? -->
-
+}
 
 ## Known Bugs
 
