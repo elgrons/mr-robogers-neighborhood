@@ -22,11 +22,9 @@ For numbers that contain a 3, all digits are replaced with "Won't you be my neig
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+*  Copy the repo from Github.
+*  Open index.html in you browswer.
+*  Input some numbers and see your results!
 
 ## TDD
 Describe: fredBot()
@@ -95,7 +93,6 @@ Expected Output: ["Beep!", "Boop!", 3]
     console.log("array" + fredBotArray[i]);
     if (i === 1) {
       fredBotArray.push("Beep!");
-      console.log("1===TRUE");
     }
      else if (i === 2) {
         fredBotArray.push("Boop!");
@@ -120,17 +117,16 @@ Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?"]
     console.log("array" + fredBotArray[i]);
     let stringBot = fredBotArray.toString();
     if (stringBot.includes("3")) {
-        fredBotArray.push("Won't you be my neighbor?");
-      console.log("3===TRUE");
+      fredBotArray.push("Won't you be my neighbor?");
     }
     else if (stringBot.includes("2")) {
-        fredBotArray.push("Boop!");
+      fredBotArray.push("Boop!");
     }
     else if (stringBot.includes("1")) {
       fredBotArray.push("Beep!");
     }
     else {
-        fredBotArray.push(i);
+      fredBotArray.push(i);
     }
   };
   return fredBotArray.toString();
@@ -138,8 +134,9 @@ Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?"]
 
 ## Known Bugs
 
-*  Every number after one comes out as "Beep!".
+* Every number after one comes out as "Beep!".
 * My javascript isn't pushing the output of my function to my HTML.
+* The form results don't reset to blank, but instead the answers are continously added to by the new answers/
 
 * Please reach out to eliot.lauren@gmail.com with any questions or concerns.
 
