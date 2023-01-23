@@ -52,7 +52,7 @@ function handleFormSubmission() {
   event.preventDefault();
   const botCount = document.getElementById("input").value;
   const botSpeak = fredBot(botCount);
-  document.getElementById("number").innerText = botSpeak;
+  document.getElementById("robo-speech").innerText = botSpeak;
 }
 
 window.addEventListener("load", function() {
