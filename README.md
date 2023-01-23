@@ -115,30 +115,30 @@ Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?"]
 
 <!-- function fredBot(input) {
   let fredBotArray = []
-  for (let i = 0; i <= input; i +=1) {
+  for (let i = 1; i <= input; i +=1) {
     console.log("index" + i);
     console.log("array" + fredBotArray[i]);
-    let inString = fredBotArray.toString(element)
-    if inString(element.includes("1")) {
-      fredBotArray.push("Beep!");
-      console.log("1===TRUE");
+    let stringBot = fredBotArray.toString();
+    if (stringBot.includes("3")) {
+        fredBotArray.push("Won't you be my neighbor?");
+      console.log("3===TRUE");
     }
-     else if inString(element.includes("2")) {
+    else if (stringBot.includes("2")) {
         fredBotArray.push("Boop!");
     }
-        else if (i === 3) {
-        fredBotArray.push("Won't you be my neighbor?");
+    else if (stringBot.includes("1")) {
+      fredBotArray.push("Beep!");
     }
     else {
         fredBotArray.push(i);
     }
   };
-  return fredBotArray;
+  return fredBotArray.toString();
 } -->
 
 ## Known Bugs
 
-*  I need to adapt my main function into a String, at this point it's only pulling 1, 2, and 3 as stand alone numbers with the return robo-speech.
+*  Every number after one comes out as "Beep!".
 * My javascript isn't pushing the output of my function to my HTML.
 
 * Please reach out to eliot.lauren@gmail.com with any questions or concerns.
