@@ -23,6 +23,8 @@
 //   return fredBotArray.toString();
 //   }
 
+// push the above if else statements into a string and that should help clear up the issue- the below statements are only right in 'to string' the above are more correct for their logic - change if's and else if's, utilize the .includes and that should fix it all
+
 //this function somehow puts everything as 1(beep)//
 let fredBotArray = []
 function fredBot(input) {1
@@ -58,3 +60,5 @@ function handleFormSubmission() {
 window.addEventListener("load", function() {
   document.querySelector("form#mr-roboger").addEventListener("submit", handleFormSubmission);
 });
+
+// ADD A CLEAR FORM EVENT HANDLER
