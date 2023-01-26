@@ -9,6 +9,8 @@
 * Javascript
 * HTML
 * CSS
+* Bootstrap
+* Git
 
 ## Description
 
@@ -113,30 +115,25 @@ Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?"]
 <!-- function fredBot(input) {
   let fredBotArray = []
   for (let i = 1; i <= input; i +=1) {
-    console.log("index" + i);
-    console.log("array" + fredBotArray[i]);
-    let stringBot = fredBotArray.toString();
-    if (stringBot.includes("3")) {
-      fredBotArray.push("Won't you be my neighbor?");
+    if (i.toString().includes(3)) {
+      fredBotArray.push(" Won't you be my neighbor?");
     }
-    else if (stringBot.includes("2")) {
-      fredBotArray.push("Boop!");
+    else if (i.toString().includes(2)){
+        fredBotArray.push(" Boop!");
     }
-    else if (stringBot.includes("1")) {
-      fredBotArray.push("Beep!");
-    }
+    else if (i.toString().includes(1)) {
+      fredBotArray.push(" Beep!");
+  }
     else {
-      fredBotArray.push(i);
+        fredBotArray.push(i);
     }
   };
   return fredBotArray.toString();
-} -->
+  } -->
 
 ## Known Bugs
 
-* Every number after one comes out as "Beep!".
-* My javascript isn't pushing the output of my function to my HTML.
-* The form results don't reset to blank, but instead the answers are continously added to by the new answers/
+* None known.
 
 * Please reach out to eliot.lauren@gmail.com with any questions or concerns.
 
