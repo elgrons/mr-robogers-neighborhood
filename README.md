@@ -27,6 +27,7 @@ For numbers that contain a 3, all digits are replaced with "Won't you be my neig
 *  Copy the repo from Github.
 *  Open index.html in you browswer.
 *  Input some numbers and see your results!
+* * [Or Open the website with this direct link](https://elgrons.github.io/mr-robogers-neighborhood/)
 
 ## TDD
 Describe: fredBot()
